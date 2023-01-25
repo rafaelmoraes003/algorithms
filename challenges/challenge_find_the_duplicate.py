@@ -1,8 +1,9 @@
 from challenges.challenge_anagrams import merge_sort
 
+
 def find_duplicate(nums):
-    if(
-        not nums 
+    if (
+        not nums
         or isinstance(nums[0], str)
         or nums[0] < 0
     ):
