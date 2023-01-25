@@ -8,6 +8,7 @@ def merge_sort(arr, start=0, end=None):
         merge_sort(arr, mid, end)
         merge(arr, start, mid, end)
 
+
 def merge(arr, start, mid, end):
     left = arr[start:mid]
     right = arr[mid:end]
@@ -28,7 +29,6 @@ def merge(arr, start, mid, end):
             arr[k] = right[j]
             j += 1
 
-        
 
 def is_anagram(first_string, second_string):
     first_list = [*first_string.lower()]
